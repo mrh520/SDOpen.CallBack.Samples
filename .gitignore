@@ -1,0 +1,5 @@
+/.Net/WebApi/.vs
+/.Net/WebApi/WebApi/bin/Debug/net8.0
+/.Net/WebApi/WebApi/obj
+/Go/webApi/go.sum
+*.exe

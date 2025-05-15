@@ -1,0 +1,15 @@
+@address = http://localhost:5017
+
+###
+
+POST  {{address}}/sd/callback
+Content-Type:  application/json
+
+{
+  "signature":"f3da14ac237e8af41cf10d3126bc99df845cb43a",
+  "appid":"appId",
+  "timestamp":"1745046304922",
+  "nonce":"YktPAD8psaSQY2f9",
+  "encrypt":"3FZ+RvsOIGJjfYlgQl5PRsJhvK25JRvGbb95vYDS4kKKudI+awRAKkse3C7u0/K0"
+
+}
