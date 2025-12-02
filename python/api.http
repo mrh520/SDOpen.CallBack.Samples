@@ -1,0 +1,14 @@
+@address = http://localhost:8000
+
+###
+
+POST  {{address}}/sd/callback
+Content-Type:  application/json
+
+{
+  "signature":"698bb1629ce04721cd67738ad43f3dd28cdb2ecd",
+  "appid":"appId",
+  "timestamp":1764656787620,
+  "nonce":"tE1Ig8UneNMiaLV8",
+  "encrypt":"3jXwclh5HcJ/iSyMA26ZDBJXybjz2HkV06PvhNBTx7YtBhPF3I5UMShtEXz9F6O97Cy+nKOFnvbUkdh5tRXWIA=="
+}

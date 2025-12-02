@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
-	callbackcrypto "webApi/utils"
+	"webApi/utils"
 
 	"github.com/gin-gonic/gin"
 )
@@ -34,7 +34,7 @@ func main() {
 		encodingAesKey := "nMM/aZcZVw7NVm//n+9pGg==" // 替换成自己的 encodingAesKey
 		appId := "appId"                             // 替换成自己的 appId
 
-		crypto, err := callbackcrypto.NewCallbackCrypto(encodingAesKey, appId)
+		crypto, err := utils.NewCallbackCrypto(encodingAesKey, appId)
 		if err != nil {
 			fmt.Printf("Failed to initialize CallbackCrypto: %v\n", err)
 			return
