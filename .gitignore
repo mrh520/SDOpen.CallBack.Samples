@@ -3,3 +3,6 @@
 /.Net/WebApi/WebApi/obj
 /Go/webApi/go.sum
 *.exe
+/python/__pyccache__/
+/python/__pycache__
+/python/.vs
