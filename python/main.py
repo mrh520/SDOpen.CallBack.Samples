@@ -1,4 +1,4 @@
-from callbackCrypto import CallbackCrypto
+from utils.callbackCrypto import CallbackCrypto
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
