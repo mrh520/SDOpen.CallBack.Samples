@@ -6,5 +6,4 @@
 /python/__pycache__
 /python/.vs
 /.vs
-/python/event/__pycache__
-/python/utils/__pycache__
+/*/**/__pycache__

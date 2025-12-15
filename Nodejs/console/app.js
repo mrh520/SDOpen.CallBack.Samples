@@ -12,7 +12,7 @@ try {
     process.exit(1);
 }
 
-const plaintext = 'hello, SDOpen!';
+const plaintext = '{"eventId":"1be31e2d91974aa6b934150c2e31f1fd","eventType":"orderStatus","body":{"orderSN":"AS99120809690","orderName":"订单名称","status":1,"remark":null,"extra":{"expressCompany":"中通好快包邮","expressName":"快递公司名称","expressNo":"运单号"}}}';
 console.log(`Plaintext: ${plaintext}`);
 
 // Encrypt the message
